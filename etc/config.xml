@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- example config.xml -->
+<config>
+    <global>
+      <events>
+        <controller_action_layout_generate_xml_before>
+          <observers>
+              <conditionalLayout>
+                  <type>singleton</type>
+                  <class>my_module/conditionallayout</class>
+                  <method>observe</method>
+              </conditionalLayout>
+          </observers>
+        </controller_action_layout_generate_xml_before>
+      </events>
+    </global>
+</config>

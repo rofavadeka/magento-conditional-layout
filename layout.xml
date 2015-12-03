@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Example layout file -->
+<layout version="0.1.0">
+  <layout_handle>
+    <reference name="reference_container">
+        <action ifhelper="helpername:helperfunction" method="addItem" />
+        <action ifmodel="package_module/modelname:modelfunction" method="addItem" />
+    </reference>
+  </layout_handle>
+</layout>
